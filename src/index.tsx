@@ -37,7 +37,7 @@ app.frame('/', async (c) => {
 
   const intents = buttonValue !== "mine" ? [
     <Button value="mine">Show me mine!</Button>
-  ] : hasImage ? [<Button.Link href={myUrl}>Share!</Button.Link>,reset] : [reset];
+  ] : hasImage ? [<Button.Link href={myUrl}>Share!</Button.Link>,<Button.Link href={url}>Download!</Button.Link>, reset] : [reset];
     return c.res({
         image: (
             <Box grow background="background200">
