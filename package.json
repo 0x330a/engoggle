@@ -1,0 +1,19 @@
+{
+  "name": "engoggle",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "frog dev",
+    "serve": "tsx src/index.tsx"
+  },
+  "dependencies": {
+    "@hono/node-server": "latest",
+    "axios": "^1.6.8",
+    "frog": "latest",
+    "hono": "^4"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "tsx": "latest"
+  }
+}
