@@ -63,5 +63,5 @@ app.frame('/', async (c) => {
 
 serve({
   fetch: app.fetch,
-  port: 3000,
+  port: 6970,
 })
