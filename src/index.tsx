@@ -21,7 +21,7 @@ app.frame('/', async (c) => {
   const { frameData, buttonValue } = c;
   const actor = frameData?.fid;
   const op = frameData?.fid ?? query ?? frameData?.castId?.fid;
-  const myUrl = `https://warpcast.com/~/compose?text=peep%20my%20nounish%20pfp&embeds[]=https://noggles.mempool.online?fid=${actor}`;
+  const myUrl = `https://warpcast.com/~/compose?text=Here%27s%20my%20nounish%20pfp%21%20thanks%20%40harris-%20for%20the%20awesome%20frame%21&embeds[]=https://noggles.mempool.online?fid=${actor}`;
   const url = `https://nog.mempool.online/face/${op}`;
   let hasImage = false;
   try {
