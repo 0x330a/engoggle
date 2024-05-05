@@ -10,6 +10,9 @@ const { Image, Text, Box, Columns, Column, vars } = createSystem();
 export const app = new Frog({
   ui: { vars },
   hub: pinata(),
+  headers: {
+    'cache-control': 'max-age=6400',
+  },
   // Supply a Hub to enable frame verification.
   // hub: neynar({ apiKey: 'NEYNAR_FROG_FM' })
 });
